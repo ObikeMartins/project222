@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIGMA DESIGN</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <div class="content">
+          <img src="img/Logo (2).png" alt="logo" class="circle">
+          <h1 class="individual">For Individuals</h1>
+          <p class="wellness">Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+
+          <!-- Mobile view specific content -->
+        <div class="mobile-content">
+          <p>Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+        </div>        
+        </div>
+        <div class="loginform">
+          <form action="#">
+            <div class="main-use-info">
+              <div class="user-input-box">
+                <label for="fistName">First Name</label>
+                <input type="text" name="fistName" id="fistName" placeholder="Tolu">
+              </div>
+              <div class="user-input-box">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName">
+              </div>
+              <div class="user-input-box">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender" class="gender">
+                  <option value="disabled content">Select here</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="Transgender">Transgender</option>
+                  <option value="Non-binary">Non-binary</option>
+                </select>
+              </div>
+              <div class="user-input-box">
+                <label for="DateofBirth">Date of Birth</label>
+                <input type="date" name="DateofBirth" id="DateofBirth">
+              </div>
+              <div class="user-input-box">
+                <label for="weight">Weight (KG)</label>
+                <input type="text" name="weight" id="weight" placeholder="Enter Weight">
+              </div>
+              <div class="user-input-box">
+                <label for="height">Height (CM)</label>
+                <input type="text" name="height" id="height" placeholder="Enter height here">
+              </div>            
+            </div>
+            <div class="activity-input-box">
+              <label for="activityLevel">Activity Level</label>
+              <select name="activityLevel" id="activityLevel" class="activity-level">
+                <option value="disabled content">Select Here</option>
+                <option value="football">Football</option>
+                <option value="volleyball">Volleyball</option>
+                <option value="basketball">Basketball</option>
+              </select>
+            </div>
+            <div class="password-input-box">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password">
+            </div>
+            <div class="form-submit-btn">
+              <input type="submit" value="Register">
+            </div>
+            <p class="footer">By clicking Register, you agree to our <a href="https://www.liverpoolfc.com/" target="blank">Terms of Use</a>  and our <a href="https://www.liverpoolfc.com/" target="blank">Privacy Policy</a></p>
+          </div>
+        </form>
+      </div>
+     </div>
+    </div>
+  </body>
+</html>
+
